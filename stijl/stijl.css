@@ -1,0 +1,44 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between; /* Logo-ul în stânga și aplicațiile în dreapta */
+    align-items: center; 
+    background-color: #FFA726; 
+    padding: 5px 15px;
+}
+
+.main-logo {
+    height: 80px; 
+}
+
+.app-logos {
+    display: flex;
+    align-items: center;
+}
+
+.app-logos a img {
+    height: 50px;
+    width: auto; /* Păstrează proporțiile imaginii */
+}
+
+/* Spațiu personalizabil între logo-uri */
+.word-logo {
+    margin-right: 20px; /* Spațiu între Word și Excel */
+}
+
+.excel-logo {
+    margin-right: 30px; /* Spațiu între Excel și PowerPoint */
+}
+
+.navbar a {
+    text-decoration: none;
+}
+
+.navbar a:hover img {
+    background-color: #FB8C00;
+    border-radius: 5px;
+}
